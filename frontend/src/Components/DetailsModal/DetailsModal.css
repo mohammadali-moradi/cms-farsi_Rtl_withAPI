@@ -1,0 +1,22 @@
+.details-modal {
+    position: absolute;
+    padding: 30px;
+    background-color: var(--white);
+    font-size: 1.3rem;
+}
+
+.close-btn {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.close-btn button {
+    border: none;
+    border-radius: 0 0 10px 0;
+    padding: 10px;
+    outline: none;    
+    background-color: red;
+    color: var(--white);
+}

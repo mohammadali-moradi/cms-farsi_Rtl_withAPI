@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-profile {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  /* flex-direction: column; */
+}
+
+.admin-profile div h1 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.admin-profile div h3 {
+  font-size: 0.8rem;
+  color: #858585;
+}
+
+.admin-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.admin-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.header-left-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.search-box {
+  background-color: var(--white);
+  border-radius: 15px;
+  width: 400px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.search-box input {
+  outline: none;
+  border: none;
+  background: unset;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 10px 20px 10px 10px;
+}
+
+.search-box button {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 3px 20px;
+}
+
+.header-left-icon {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  box-shadow: rgba(149, 157, 165, 0.6) 0 8px 24px;
+}
