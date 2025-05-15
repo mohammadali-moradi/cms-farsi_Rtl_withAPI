@@ -1,3 +1,7 @@
+## 🌐 Live Demo
+
+👉 [cms-farsi-rtl-with-api.vercel.app](https://vercel.com/mohammadali-moradis-projects/cms-farsi-rtl-with-api)
+
 
 # CMS-Farsi
 
@@ -75,4 +79,4 @@ cms-farsi/
 
 ## 🌐 Deployment Status
 
-The project is currently running **locally only** and has **not been deployed online**.
+The project is currently running **on vercel ** and has **been deployed online** but need to run the node backend for it.
